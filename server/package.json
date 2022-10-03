@@ -1,0 +1,24 @@
+{
+  "name": "fullstack-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "mapbox-gl": "^2.10.0",
+    "morgan": "^1.10.0",
+    "react-map-gl": "^7.0.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
